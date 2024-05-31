@@ -60,6 +60,7 @@ public class ListActivity extends AppCompatActivity {
         List<User> userList = new ArrayList<>(); // Using ArrayList, which implements List
         Random random = new Random();
 
+        // test
         for (int i = 0; i < count; i++) {
             String name = "Name" + random.nextInt(1000000);
             String description = "Description " + random.nextInt(1000000);
